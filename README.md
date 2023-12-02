@@ -3,8 +3,8 @@ AI Language - sentiment, text analysis, QnA ...
 
 # Screenshot
 
-![Test content](assets/azure_cog_sentiment_content.PNG)
-![Results](assets/azure_cog_sentiment_result.PNG)
+![Test content](assets/azure cog sentiment -content.PNG)
+![Results](assets/azure cog sentiment result.PNG)
 
 # Description
 
