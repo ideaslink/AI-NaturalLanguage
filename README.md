@@ -2,8 +2,11 @@
 AI Language - sentiment, text analysis, QnA ...
 
 # Screenshot
+**Content to be analyzed:**
+Enjoyed the vibrant energy and iconic attractions in Las Vegas,  but found the overall service quality lacking. 
+Nonetheless, the unique charm of the city made for an unforgettable experience.
 
-![Test content](assets/azure_cog_sentiment_content.PNG)
+__Result:__
 ![Results](assets/azure_cog_sentiment_result.PNG)
 
 # Description
