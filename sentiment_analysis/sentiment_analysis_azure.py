@@ -76,4 +76,57 @@ class SentimentAnalysis:
             print("\n")
         print("\n")                        
 
+    def abstract_summary(self, text_content):
+        """
+        abstract summary
+        """
+        results = self.taclient.begin_abstract_summary(text_content).result()
+
+        for result in results:
+            if result.kind == "AbstractiveSummarization":
+                print("result of abstract summaries:\n")
+                [print(f"{summary.text}\n") for summary in result.summaries]                    
+            elif result.is_error is True:
+                print(f"Error: {result.error.message} (code: {result.error.code})")
+        
+
+    def recognize_key_phrases(self, text_content):
+        """
+        extract key phrases from text content
+        """
+        result = self.taclient.extract_key_phrases(text_content)
+        print(f"\nRecognizing key phrases: \n")
+        for idx, doc in enumerate(result):
+            if doc.is_error:
+                print(f"{doc.error.message}")
+                continue
+            print(f"Key phrases in doc {idx+1}: {', '.join(doc.key_phrases)}")
+
+
+    def recognize_entities(self, text_content):
+        """
+        recognize entities from text content
+        """
+        result = self.taclient.recognize_entities(text_content)
+        result = [content for content in result if not content.is_error]
+
+        print(f"\nRecognizing entities: \n")
+        for idx, content in enumerate(result):
+            for entity in content.entities:
+                print(f"Entity '{entity.text}' has category '{entity.category}'")
+
+
+    def recognize_linked_entities(self, text_content):
+        """
+        recognize linked entities from external knowledge base (e.g. wikipedia...)
+        """
+        result = self.taclient.recognize_linked_entities(text_content)
+        result = [content for content in result if not content.is_error]
+        
+        print("\nRecognizing linked entities:\n")
+        for doc in result:
+            for entity in doc.entities:
+                url = "None" if entity.data_source is None else entity.url
+                print(f"Entity '{entity.name}': link: {url}, mentioned: {len(entity.matches)} time{'s' if len(entity.matches) > 1 else ''}")
+
 
