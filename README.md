@@ -14,7 +14,7 @@ __Result:__
 **Linked entities recognition**
 
 __Input and result__
-![Results](assets/linked_entities.PNG)
+![Results](assets/linked_entities.png)
 
 # Description
 
