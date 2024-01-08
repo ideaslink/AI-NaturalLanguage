@@ -1,13 +1,20 @@
 # AI Natural Language
-AI Language - sentiment, text analysis, QnA ...
+AI Language - sentiment, text analysis, key phrases, entities, linked entities, QnA ...
 
 # Screenshot
-**Content to be analyzed:**
+**Sentiment analysis**
+
+__Content to be analyzed:__
 Enjoyed the vibrant energy and iconic attractions in Las Vegas,  but found the overall service quality lacking. 
 Nonetheless, the unique charm of the city made for an unforgettable experience.
 
 __Result:__
 ![Results](assets/azure_cog_sentiment_result.PNG)
+
+**Linked entities recognition**
+
+__Input and result__
+![Results](assets/linked_entities.PNG)
 
 # Description
 
