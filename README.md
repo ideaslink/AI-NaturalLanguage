@@ -12,8 +12,16 @@ __Result:__
 ![Results](assets/azure_cog_sentiment_result.PNG)
 
 ## Linked entities recognition
+
+**Input**
+Founded in 1975 by Bill Gates and Paul Allen, Microsoft quickly became a tech giant, achieving early success with 
+MS-DOS and Windows. Dominating the '90s with Microsoft Office, the company faced antitrust challenges but adapted 
+to the internet era. Under CEO Satya Nadella's leadership since 2014, Microsoft embraced cloud computing with Azure 
+and ventured into mobile. Recent innovations in AI, cloud solutions, and collaboration reflect Microsoft's commitment 
+to shaping the future of technology, cementing its legacy as a global tech powerhouse.
+
 __Input and result:__<br/>
-![Results](assets/linked_entities.png)
+![Results](assets/linked_entities_result.png)
 
 # Description
 
