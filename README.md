@@ -21,7 +21,7 @@ and ventured into mobile. Recent innovations in AI, cloud solutions, and collabo
 to shaping the future of technology, cementing its legacy as a global tech powerhouse.
 
 __Input and result:__<br/>
-![Results](assets/linked_entities_result.png)
+![Results](assets/linked_entity_result.png)
 
 # Description
 
