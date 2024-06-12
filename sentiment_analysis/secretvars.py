@@ -3,9 +3,9 @@
 
 """
 
-AZURE_COG_KEY = "2154bea2f38c48f4a0988131e1657990" #os.environ.get('AZURE_COG_KEY')
+AZURE_COG_KEY = "ecde79d1fe944ba4b718204bbe1ddf24" # "2154bea2f38c48f4a0988131e1657990" #os.environ.get('AZURE_COG_KEY')
 
-AZURE_COG_ENDPOINT = "https://vci-cog-svc.cognitiveservices.azure.com/" # os.environ.get('AZURE_COG_ENDPOINT')
+AZURE_COG_ENDPOINT = "https://ailanguage-hsharp.cognitiveservices.azure.com/" # "https://vci-cog-svc.cognitiveservices.azure.com/" # os.environ.get('AZURE_COG_ENDPOINT')
 
 
 # '''

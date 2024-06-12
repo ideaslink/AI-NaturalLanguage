@@ -81,6 +81,7 @@ class TestSentimentAnalysisAzure(unittest.TestCase):
         self.sentiment_analysis.recognize_linked_entities(self.text_content)
         self.assertTrue(True)
 
+
 if __name__ == "__main__":
     """ 
     """

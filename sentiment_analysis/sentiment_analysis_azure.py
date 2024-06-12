@@ -80,6 +80,7 @@ class SentimentAnalysis:
         """
         abstract summary
         """
+        print("\nabstracting summary:\n")
         results = self.taclient.begin_abstract_summary(text_content).result()
 
         for result in results:
