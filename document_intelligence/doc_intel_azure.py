@@ -1,6 +1,8 @@
 # ------------------------------------------------------------------------------------------------
 #   Copyright (c) Ideaslink. All rights reserved
 #   Licensed under the MIT License. 
+#
+#   ref: ms azure ai services
 # ------------------------------------------------------------------------------------------------
 
 """
@@ -101,19 +103,20 @@ class DocIntelAnalysis:
                             )
 
         print("----------------------------------------")
-        print(f"result(total pages {result.pages.__len__} \n")
-        # print(result)
+        # print(f"result(total pages {result.pages.__len__} \n")
+        print(result)
 
-
-    def get_words(self, page, line):
+    @staticmethod
+    def get_words(page, line):
         result = []
         for word in page.words:
-            if self._in_span(word, line.spans):
+            if DocIntelAnalysis._in_span(word, line.spans):
                 result.append(word)
         return result
     
 
-    def _in_span(self, word, spans):
+    @staticmethod
+    def _in_span(word, spans):
         for span in spans:
             if word.span.offset >= span.offset and (word.span.offset + word.span.length) <= (span.offset + span.length):
                 return True

@@ -43,8 +43,8 @@ class TestDocIntelAnalysisAzure(unittest.TestCase):
         #                     #    the service didn't quite match up to the city's reputation. Nonetheless, the charm of Las Vegas and its unique offerings outweighed these concerns, leaving me with fond memories of an unforgettable trip."""
         #                     '''Founded in 1975 by Bill Gates and Paul Allen, Microsoft quickly became a tech giant, achieving early success with MS-DOS and Windows. Dominating the '90s with Microsoft Office, the company faced antitrust challenges but adapted to the internet era. Under CEO Satya Nadella's leadership since 2014, Microsoft embraced cloud computing with Azure and ventured into mobile. Recent innovations in AI, cloud solutions, and collaboration reflect Microsoft's commitment to shaping the future of technology, cementing its legacy as a global tech powerhouse.'''
         #                     ]
-        self.doc_url = "https://raw.githubusercontent.com/Azure-Samples/cognitive-services-REST-api-samples/master/curl/form-recognizer/sample-layout.pdf"
-        # " "https://raw.githubusercontent.com/Azure/azure-sdk-for-python/main/sdk/documentintelligence/azure-ai-documentintelligence/samples/sample_forms/forms/Invoice_1.pdf"
+        # self.doc_url = "https://raw.githubusercontent.com/Azure-Samples/cognitive-services-REST-api-samples/master/curl/form-recognizer/sample-layout.pdf"
+        self.doc_url = "https://raw.githubusercontent.com/Azure/azure-sdk-for-python/main/sdk/documentintelligence/azure-ai-documentintelligence/samples/sample_forms/forms/Invoice_1.pdf"
 
     def test_analyze_doc(self):
         """
