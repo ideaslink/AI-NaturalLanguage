@@ -84,8 +84,7 @@ class DocIntelAnalysis:
         if result.tables:
             for table_idx, table in enumerate(result.tables):
                 print(
-                    f"Table # {table_idx} has {table.row_count} rows and "
-                    f"{table.column_count} columns"
+                    f"Table # {table_idx} has {table.row_count} rows and {table.column_count} columns"
                 )
                 if table.bounding_regions:
                     for region in table.bounding_regions:
@@ -103,8 +102,7 @@ class DocIntelAnalysis:
                             )
 
         print("----------------------------------------")
-        # print(f"result(total pages {result.pages.__len__} \n")
-        print(result)
+        # print(result)
 
     @staticmethod
     def get_words(page, line):
