@@ -3,6 +3,10 @@
 
 """
 
+AZURE_COG_KEY = "ecde79d1fe944ba4b718204bbe1ddf24" 
+
+AZURE_COG_ENDPOINT = "https://ailanguage-hsharp.cognitiveservices.azure.com/" 
+
 # '''
 #     use your own key/endpoint
 
