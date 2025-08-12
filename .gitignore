@@ -56,5 +56,5 @@ pip-log.txt
 Thumbs.db
 
 custom
-# **/secretvars.py
+**/secretvars.py
 **/secrets.py
