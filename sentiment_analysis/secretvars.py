@@ -4,7 +4,6 @@
 """
 
 
-
 # '''
 #     use your own key/endpoint
 
@@ -14,6 +13,6 @@
 
 # '''
 
-# AZURE_COG_KEY = "<Paste_your_key>"
+AZURE_COG_KEY = "<Paste_your_key>"
 
-# AZURE_COG_ENDPOINT = "<paste_your_endpoint"
+AZURE_COG_ENDPOINT = "<paste_your_endpoint"
