@@ -3,9 +3,6 @@
 
 """
 
-AZURE_DOCINTEL_KEY = "c07f5c3a4ce34ee4ab72f1d57a6a0bab"
-
-AZURE_DOCINTEL_ENDPOINT = "https://docinteli-hsharp.cognitiveservices.azure.com/"
 
 # """
 #     use your own key/endpoint
@@ -16,6 +13,6 @@ AZURE_DOCINTEL_ENDPOINT = "https://docinteli-hsharp.cognitiveservices.azure.com/
 
 # """
 
-# AZURE_DOCINTEL_KEY = "<Paste_your_key>"
+AZURE_DOCINTEL_KEY = "<Paste_your_key>"
 
-# AZURE_DOCINTEL_ENDPOINT = "<paste_your_endpoint>"
+AZURE_DOCINTEL_ENDPOINT = "<paste_your_endpoint>"

@@ -55,6 +55,6 @@ pip-log.txt
 .DS_Store
 Thumbs.db
 
-custom
-**/secretvars.py
+# custom
+# **/secretvars.py
 **/secrets.py
